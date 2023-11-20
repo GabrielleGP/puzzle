@@ -41,6 +41,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 
 
-
+**
 This code sets up a simple sliding puzzle game in a React app. The puzzle consists of numbered tiles that can be clicked to move them. The PUZZLE_SIZE constant determines the size of the puzzle (e.g., 3x3, 4x4, etc.). Each move swaps the clicked tile with the empty tile, allowing the player to rearrange the puzzle to solve it.
-When the player solves the puzzle (i.e., arranges the tiles in the correct order), the game will detect this and trigger a message notifying the player that they have won the game. The checkWin function compares the current arrangement of tiles with a sorted version of the tiles to determine if they match, indicating a win.
+When the player solves the puzzle (i.e., arranges the tiles in the correct order), the game will detect this and trigger a message notifying the player that they have won the game. The checkWin function compares the current arrangement of tiles with a sorted version of the tiles to determine if they match, indicating a win.**
