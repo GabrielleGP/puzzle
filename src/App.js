@@ -60,11 +60,11 @@ function App() {
   return (
     <div className="App">
       <h1>Sliding Puzzle Game</h1>
-      <div className="Puzzle" style={{ justifyContent: "center" }}>
+      <div className="Puzzle">
         {puzzle.map((tile, index) => (
           <div
             key={index}
-            style={{ height: "80px", width: "80px" }}
+            style={{ height: "100px", width: "200px" }}
             className={`Tile ${tile === null ? 'EmptyTile' : ''}`}
             onClick={() => handleTileClick(index)}
           >
